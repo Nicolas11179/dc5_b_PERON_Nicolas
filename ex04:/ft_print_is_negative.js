@@ -1,3 +1,7 @@
-let numbers = ['2', '1', '3', '4', '5', '7', '8', '6', '9'];
+let numbers = -45;
 
-console.log(numbers.sort().reverse().join());
+if (numbers<0) {
+    console.log('N')
+  } else {
+    console.log('P')
+  }
