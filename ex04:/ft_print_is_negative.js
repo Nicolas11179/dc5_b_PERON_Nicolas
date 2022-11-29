@@ -1,7 +1,11 @@
-let numbers = -45;
+function number() {
 
-if (numbers<0) {
-    console.log('N')
-  } else {
-    console.log('P')
-  }
+    var nombre = document.getElementById("in").value;
+    
+    if (nombre<0) {
+        alert('N');
+    } else {
+        alert('P');
+    }
+    
+}
